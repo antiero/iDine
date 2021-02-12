@@ -8,8 +8,12 @@
 
 import SwiftUI
 
-class Order {
-    var items = [MenuItem]()
+class Order: ObservableObject {
+    // Apple provides a couple of different ways of publishing change announcements, but the easiest is to use the @Published property wrapper before any properties that should trigger change notifications.
+    // Placing @Published before a property is enough to have it update any SwiftUI views that are watching for changes
+    
+    // Announce changes to any views that are watching...
+    @Published var items = [MenuItem]()
 
     var total: Int {
         if items.count > 0 {
