@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ED775F6425D6F66900AB0635 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED775F6325D6F66900AB0635 /* ItemRow.swift */; };
+		ED775F6725D6F8BA00AB0635 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED775F6625D6F8BA00AB0635 /* ItemDetail.swift */; };
 		ED87A0A625D6F0A000AC1DA6 /* iDineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87A0A525D6F0A000AC1DA6 /* iDineApp.swift */; };
 		ED87A0A825D6F0A000AC1DA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87A0A725D6F0A000AC1DA6 /* ContentView.swift */; };
 		ED87A0AA25D6F0A100AC1DA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED87A0A925D6F0A100AC1DA6 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		ED775F6325D6F66900AB0635 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		ED775F6625D6F8BA00AB0635 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		ED87A0A225D6F0A000AC1DA6 /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED87A0A525D6F0A000AC1DA6 /* iDineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineApp.swift; sourceTree = "<group>"; };
 		ED87A0A725D6F0A000AC1DA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				ED87A0AE25D6F0A100AC1DA6 /* Info.plist */,
 				ED87A0AB25D6F0A100AC1DA6 /* Preview Content */,
 				ED775F6325D6F66900AB0635 /* ItemRow.swift */,
+				ED775F6625D6F8BA00AB0635 /* ItemDetail.swift */,
 			);
 			path = iDine;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED775F6725D6F8BA00AB0635 /* ItemDetail.swift in Sources */,
 				ED87A0B825D6F0B400AC1DA6 /* Order.swift in Sources */,
 				ED87A0A825D6F0A000AC1DA6 /* ContentView.swift in Sources */,
 				ED87A0A625D6F0A000AC1DA6 /* iDineApp.swift in Sources */,
