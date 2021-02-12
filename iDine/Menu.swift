@@ -8,13 +8,13 @@
 
 import SwiftUI
 
-struct MenuSection: Codable {
+struct MenuSection: Identifiable, Codable {
     var id: UUID
     var name: String
     var items: [MenuItem]
 }
 
-struct MenuItem: Codable, Equatable {
+struct MenuItem: Identifiable, Codable, Equatable {
     var id: UUID
     var name: String
     var photoCredit: String
